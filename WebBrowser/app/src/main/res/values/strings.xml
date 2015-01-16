@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WebBrowser</string>
+    <string name="title_activity_splash">Start Browsing</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_browser">BrowserActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="tab">Tab</string>
+    <string name="text">tvTab</string>
+    <string name="imagebutton">ibCancel</string>
+    <string name="webview">wv</string>
+    <string name="title_activity_about_us">AboutUsActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_book_mark">BookMarkActivity</string>
+    <string name="title_activity_bookmark">BookmarkActivity</string>
+    <string name="bLogin">bLogin</string>
+    <string name="bRetrieve">bRetrieve</string>
+    <string name="bRCancel">bRCancel</string>
+    <string name="GRAB">This is GRAB Browser which is a unique combination of superior technology while maintaining the naturalness of browser \n
+        Developers:\n
+        Amit Meena\n
+        Mayank Gupta\n
+        Ravi Kant\n
+        Rohit Nandan\n</string>
+
+    <color name="ORANGE">#FFFF00</color>
+
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="application_name">Gestures Builder</string>
+    <!-- Title, name of the activity used to create a gesture -->
+    <string name="label_create_gesture">Create a gesture</string>
+
+    <!-- Buttons -->
+    <skip />
+    <!-- Label, button used to add a gesture -->
+    <string name="button_add">Add gesture</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="button_reload">Reload</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="button_discard">Discard</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="button_done">Done</string>
+
+    <!-- Gestures -->
+    <skip />
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="prompt_gesture_name">URL</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="error_missing_name">You must enter a name</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="save_success">Gesture saved in %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="cancel_action">Cancel</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="gestures_loading">Loading gestures...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="gestures_empty">No gestures</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="gestures_activity">Gestures</string>
+    <!-- Noun, menu item used to rename a gesture -->
+    <string name="gestures_rename">Rename</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="gestures_delete">Delete</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="gestures_delete_success">Gesture deleted</string>
+    <!-- Title of dialog box -->
+    <string name="gestures_rename_title">Rename gesture</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="gestures_rename_label">Gesture name/New URL</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="gestures_error_loading">Could not load %s. Make sure you have storage available.</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="title_activity_history">HistoryActivity</string>
+    <string name="title_activity_create_gesture">CreateGestureActivity</string>
+    <string name="title_activity_gesture_builder">GestureBuilderActivity</string>
+    <string name="title_activity_gesture">GestureActivity</string>
+
+</resources>

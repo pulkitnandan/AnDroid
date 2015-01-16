@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eudessess.webbrowser"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".main.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.BrowserActivity"
+            android:label="@string/title_activity_browser" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.main.browseractivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.aboutus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".menu.BookmarkActivity"
+            android:label="@string/title_activity_bookmark" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.bookmark" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.SettingActivity"
+            android:label="@string/title_activity_setting" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.setting" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menu.HistoryActivity"
+            android:label="@string/title_activity_history" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.history" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!--
+        <activity
+            android:name=".gesture.GestureActivity"
+            android:label="Open URL with Gestures!!" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.gestureactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".gesture.GestureBuilderActivity"
+            android:label="Gesture Building" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.gesturebuilderactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".gesture.CreateGestureActivity"
+            android:label="Create Gesture" >
+            <intent-filter>
+                <action android:name="com.eudessess.webbrowser.menu.creategestureactivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        -->
+
+        <activity
+            android:name=".gesture.GestureBuilderActivity"
+            android:label="@string/title_activity_gesture_builder" >
+        </activity>
+        <activity
+            android:name=".gesture.GestureActivity"
+            android:label="@string/title_activity_gesture" >
+        </activity>
+    </application>
+
+</manifest>
